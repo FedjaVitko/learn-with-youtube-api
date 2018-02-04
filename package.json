@@ -1,0 +1,21 @@
+{
+  "name": "learn-with-youtube-api",
+  "version": "0.1.0",
+  "description": "An API for the Learn With Youtube Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "author": "Fedor Vitkovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
