@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const playlistRoute = require('./playlist');
+const playlistRoute = require('./courses');
 
-router.use('/playlist', playlistRoute);
+router.use('/courses', playlistRoute);
 
 module.exports = router;
