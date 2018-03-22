@@ -16,6 +16,8 @@
     "google-auth-library": "^1.2.1",
     "googleapis": "^25.0.0",
     "knex": "^0.14.2",
+    "lodash": "^4.17.5",
+    "node-fetch": "^2.0.0",
     "pg": "^7.4.1"
   },
   "devDependencies": {

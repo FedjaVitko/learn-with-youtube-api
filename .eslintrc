@@ -1,0 +1,36 @@
+{
+  "env": {
+    "commonjs": true
+  },
+  "globals": {
+    "process": true,
+    "console": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "arrowFunctions": true,
+      "destructuring": true,
+      "classes": true,
+      "defaultParams": true,
+      "blockBindings": true,
+      "modules": true,
+      "objectLiteralComputedProperties": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
+      "restParams": true,
+      "spread": true,
+      "templateStrings": true,
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "extends": ["eslint:recommended"],
+  "rules": {
+    "no-console": ["off"],
+    "no-unused-vars": ["warn"],
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "linebreak-style": 0
+  }
+}

@@ -1,8 +1,16 @@
+/**
+ * External dependencies
+ */
 const express = require('express');
 const router = express.Router();
 
-const playlistRoute = require('./courses');
+/**
+ * Internal dependencies
+ */
+const coursesRoute = require('./courses');
+const lessonsRoute = require('./lessons');
 
-router.use('/courses', playlistRoute);
+router.use('/courses', coursesRoute);
+router.use('/lessons', lessonsRoute);
 
 module.exports = router;
